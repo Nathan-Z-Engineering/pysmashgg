@@ -785,6 +785,7 @@ def player_show_tournaments_for_game(response, videogame_id):
                 cur_tournament['name'] = node['name']
                 cur_tournament['slug'] = node['slug'].split('/')[-1]
                 cur_tournament['id'] = node['id']
+                cur_tournament['isOnline'] = node['isOnline']
                 cur_tournament['attendees'] = node['numAttendees']
                 cur_tournament['country'] = node['countryCode']
                 cur_tournament['startTimestamp'] = node['startAt']
