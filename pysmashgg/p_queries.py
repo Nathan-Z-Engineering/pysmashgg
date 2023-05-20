@@ -47,7 +47,6 @@ PLAYER_SHOW_TOURNAMENTS_FOR_GAME_QUERY = """query ($playerId: ID!, $playerName: 
           numAttendees
           countryCode
           startAt
-          isOnline
           events {
             name
             id
